@@ -1,0 +1,29 @@
+.me-img {
+  width: 250px;
+  height: 250px;
+  margin: 50px 0 20px 0;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-me__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.about-me__paragraph {
+  width: 245px;
+  font-size: 13px;
+  margin: 30px auto 150px auto;
+  font-weight: 100;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+}
+
+.resaltado {
+  color: #845ec2;
+  font-size: 15px;
+}
