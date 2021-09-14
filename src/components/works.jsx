@@ -8,6 +8,9 @@ import TiendaCieloImg from "../img/tienda-cielo.png";
 import ChatImg from "../img/crotochat.jpg";
 import TheNewsImg from "../img/TheWorldNews.png";
 import CountriesImg from "../img/countries.png";
+import JournalImg from "../img/MyJournal.png";
+import EarningsImg from "../img/MyEarnings.png";
+import LotteryImg from "../img/myLottery.png";
 import Fade from "../../node_modules/react-reveal/Fade";
 
 class Works extends React.Component {
@@ -78,6 +81,33 @@ class Works extends React.Component {
               texto="Una web donde se pueden visualizar todos los paises del mundo, junto con los detalles de c/u. Además, se puede filtrar por región, o buscar un país en especifico. Utiliza Html, CSS y React JS [Hooks]"
               web="https://countries-challenge.web.app/"
               repo="https://github.com/Urriste/countries-api-challenge"
+            ></WorksCard>
+          </Fade>
+          <Fade top>
+            <WorksCard
+              title="My Journal"
+              img={JournalImg}
+              texto="Una web que simula ser un diario, donde podemos crear entradas como un diario fisico corriente. Utiliza Html, CSS, ReactJs[Hooks] y LocalStorage"
+              web="https://my-journal1.web.app/"
+              repo="https://github.com/Urriste/my-journal"
+            ></WorksCard>
+          </Fade>
+          <Fade top>
+            <WorksCard
+              title="My Earnings"
+              img={EarningsImg}
+              texto="Una web nacida para satisfacer mi necesidad de llevar un control de mis ingresos diarios. Utiliza Html, CSS, ReactJs[Hooks], LocalStorage y Context API [Redux nativo de React]"
+              web="https://mis-ganancias0.web.app/"
+              repo="https://github.com/Urriste/MyEarnings"
+            ></WorksCard>
+          </Fade>
+          <Fade top>
+            <WorksCard
+              title="My Lottery"
+              img={LotteryImg}
+              texto="Creada principalmente para practicar un nuevo framework, la funcion de esta web es poder hacer sorteos rapidos, sencillos, y sin vueltas. Utiliza Angular"
+              web="https://my--lottery.web.app/"
+              repo="https://github.com/Urriste/myLottery"
             ></WorksCard>
           </Fade>
         </section>

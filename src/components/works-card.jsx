@@ -9,7 +9,7 @@ class WorksCard extends React.Component {
       <Fragment>
         <div className="card">
           <p className="card-title">{this.props.title}</p>
-          <a href={this.props.web}>
+          <a href={this.props.web} target="_blank">
             <img src={this.props.img} className="card-img" />
           </a>
           <p className="card-description">{this.props.texto}</p>

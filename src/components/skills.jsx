@@ -7,7 +7,8 @@ import JsImg from "../img/js.png";
 import ReactImg from "../img/react.png";
 import BootstrapImg from "../img/bootstrap.png";
 import GitImg from "../img/git.svg";
-import SqlImg from "../img/sql.svg";
+import AngularImg from "../img/angular.png";
+
 import LightSpeed from "react-reveal/LightSpeed";
 import Zoom from "react-reveal/Zoom";
 
@@ -39,7 +40,7 @@ class Skills extends React.Component {
               <Box img={GitImg}></Box>
             </Zoom>
             <Zoom>
-              <Box img={SqlImg}></Box>
+              <Box img={AngularImg}></Box>
             </Zoom>
           </div>
         </section>
