@@ -5,12 +5,13 @@ import TusComprasImg from "../img/TusCompras.jpg";
 import PiedraPapelTijerasImg from "../img/piedra-papel-tijera.jpg";
 import PapaNoelImg from "../img/cuenta-regresiva.jpg";
 import TiendaCieloImg from "../img/tienda-cielo.png";
-import ChatImg from "../img/crotochat.jpg";
 import TheNewsImg from "../img/TheWorldNews.png";
 import CountriesImg from "../img/countries.png";
 import JournalImg from "../img/MyJournal.png";
 import EarningsImg from "../img/MyEarnings.png";
 import LotteryImg from "../img/myLottery.png";
+import MyDesktopImg from "../img/my-desktop.png";
+import MyChatsImg from "../img/my-chats.png";
 import Fade from "../../node_modules/react-reveal/Fade";
 
 class Works extends React.Component {
@@ -56,15 +57,7 @@ class Works extends React.Component {
               repo="https://github.com/Urriste/TiendaCielo"
             ></WorksCard>
           </Fade>
-          <Fade top>
-            <WorksCard
-              title="CrotoChat"
-              img={ChatImg}
-              texto="Chat Realtime desarrollado en un curso de Firebase, donde se puede escribir logeando con Google. Utiliza Html, CSS,Javascript y Firebase"
-              web="https://crotochat-19bb2.web.app/"
-              repo="https://github.com/Urriste/firebase-realtime-chat"
-            ></WorksCard>
-          </Fade>
+
           <Fade top>
             <WorksCard
               title="TheWorld News"
@@ -108,6 +101,24 @@ class Works extends React.Component {
               texto="Creada principalmente para practicar un nuevo framework, la funcion de esta web es poder hacer sorteos rapidos, sencillos, y sin vueltas. Utiliza Angular"
               web="https://my--lottery.web.app/"
               repo="https://github.com/Urriste/myLottery"
+            ></WorksCard>
+          </Fade>
+          <Fade top>
+            <WorksCard
+              title="My Desktop"
+              img={MyDesktopImg}
+              texto="Portfolio alternativo, hecho en base a Windows XP, desde los estilos hasta los sonidos. Utiliza React JS"
+              web="https://my-desktop-xp.web.app/"
+              repo="https://github.com/Urriste/my-desktop"
+            ></WorksCard>
+          </Fade>
+          <Fade top>
+            <WorksCard
+              title="My Chats"
+              img={MyChatsImg}
+              texto="Chat en tiempo real. Utiliza React JS, y Firebase para la autentificación y la base de datos realtime"
+              web="https://my--chats.web.app/"
+              repo="https://github.com/Urriste/myChats"
             ></WorksCard>
           </Fade>
         </section>
