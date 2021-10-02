@@ -1,6 +1,8 @@
+//React Imports
 import React, { Fragment } from "react";
-import Header from "./header";
 
+//Internal Imports
+import Header from "./Header/header";
 
 class Main extends React.Component {
   render() {

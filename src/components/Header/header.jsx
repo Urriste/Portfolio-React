@@ -1,6 +1,11 @@
+//React Imports
 import React, { Fragment } from "react";
+
+//Internal Imports
 import "./header.css";
-import Typed from "../../node_modules/react-typed";
+
+//External Imports
+import Typed from "react-typed";
 import Jump from "react-reveal/Jump";
 import Tilt from "react-tilt";
 

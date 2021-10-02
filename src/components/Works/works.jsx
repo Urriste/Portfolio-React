@@ -1,18 +1,24 @@
+//React Imports
 import React, { Fragment } from "react";
+
+//Internal Imports
 import "./works.css";
 import WorksCard from "./works-card";
-import TusComprasImg from "../img/TusCompras.jpg";
-import PiedraPapelTijerasImg from "../img/piedra-papel-tijera.jpg";
-import PapaNoelImg from "../img/cuenta-regresiva.jpg";
-import TiendaCieloImg from "../img/tienda-cielo.png";
-import TheNewsImg from "../img/TheWorldNews.png";
-import CountriesImg from "../img/countries.png";
-import JournalImg from "../img/MyJournal.png";
-import EarningsImg from "../img/MyEarnings.png";
-import LotteryImg from "../img/myLottery.png";
-import MyDesktopImg from "../img/my-desktop.png";
-import MyChatsImg from "../img/my-chats.png";
-import Fade from "../../node_modules/react-reveal/Fade";
+import TusComprasImg from "../../img/TusCompras.jpg";
+import PiedraPapelTijerasImg from "../../img/piedra-papel-tijera.jpg";
+import PapaNoelImg from "../../img/cuenta-regresiva.jpg";
+import TiendaCieloImg from "../../img/tienda-cielo.png";
+import TheNewsImg from "../../img/TheWorldNews.png";
+import CountriesImg from "../../img/countries.png";
+import JournalImg from "../../img/MyJournal.png";
+import EarningsImg from "../../img/MyEarnings.png";
+import LotteryImg from "../../img/myLottery.png";
+import MyDesktopImg from "../../img/my-desktop.png";
+import MyChatsImg from "../../img/my-chats.png";
+import ReduxListImg from "../../img/redux-list.png";
+
+//External Imports
+import Fade from "react-reveal/Fade";
 
 class Works extends React.Component {
   render() {
@@ -107,7 +113,7 @@ class Works extends React.Component {
             <WorksCard
               title="My Desktop"
               img={MyDesktopImg}
-              texto="Portfolio alternativo, hecho en base a Windows XP, desde los estilos hasta los sonidos. Utiliza React JS"
+              texto="Portfolio alternativo, hecho en base a Windows XP, desde los estilos hasta los sonidos. Utiliza React JS y SASS"
               web="https://my-desktop-xp.web.app/"
               repo="https://github.com/Urriste/my-desktop"
             ></WorksCard>
@@ -116,9 +122,18 @@ class Works extends React.Component {
             <WorksCard
               title="My Chats"
               img={MyChatsImg}
-              texto="Chat en tiempo real. Utiliza React JS, y Firebase para la autentificación y la base de datos realtime"
+              texto="Chat en tiempo real. Utiliza React JS, y Firebase para la autentificación y la base de datos realtime, y SASS"
               web="https://my--chats.web.app/"
               repo="https://github.com/Urriste/myChats"
+            ></WorksCard>
+          </Fade>
+          <Fade top>
+            <WorksCard
+              title="RTodo-List"
+              img={ReduxListImg}
+              texto="To-Do list sencillo hecho para practicar Redux. Utiliza React,Redux, y SASS"
+              web="https://redux-todo--list.web.app/"
+              repo="https://github.com/Urriste/redux-todo-list"
             ></WorksCard>
           </Fade>
         </section>

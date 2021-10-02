@@ -1,14 +1,18 @@
+//React Imports
 import React, { Fragment } from "react";
+
+//Internal Imports
 import "./skills.css";
 import Box from "./box";
-import HtmlImg from "../img/html-5.png";
-import CssImg from "../img/css-3.png";
-import JsImg from "../img/js.png";
-import ReactImg from "../img/react.png";
-import BootstrapImg from "../img/bootstrap.png";
-import GitImg from "../img/git.svg";
-import AngularImg from "../img/angular.png";
+import HtmlImg from "../../img/html-5.png";
+import CssImg from "../../img/css-3.png";
+import JsImg from "../../img/js.png";
+import ReactImg from "../../img/react.png";
+import BootstrapImg from "../../img/bootstrap.png";
+import GitImg from "../../img/git.svg";
+import AngularImg from "../../img/angular.png";
 
+//External Imports
 import LightSpeed from "react-reveal/LightSpeed";
 import Zoom from "react-reveal/Zoom";
 

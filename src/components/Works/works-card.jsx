@@ -1,7 +1,10 @@
+//React Imports
 import React, { Fragment } from "react";
+
+//Internal Imports
 import "./works.css";
-import Github from "../img/github.png";
-import Web from "../img/web.png";
+import Github from "../../img/github.png";
+import Web from "../../img/web.png";
 
 class WorksCard extends React.Component {
   render() {

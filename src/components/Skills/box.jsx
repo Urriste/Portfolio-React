@@ -1,4 +1,7 @@
+//React Imports
 import React from "react";
+
+//Internal Imports
 import "./skills.css";
 
 class Box extends React.Component {

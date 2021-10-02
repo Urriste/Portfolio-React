@@ -1,9 +1,13 @@
+//React Imports
 import React, { Fragment } from "react";
-import { Link } from "../../node_modules/react-router-dom";
-import "./footer.css";
-import Fade from "../../node_modules/react-reveal/Fade";
-import Home from "../img/home.svg";
 
+//Internal Imports
+import Home from "../../img/home.svg";
+import "./footer.css";
+
+//External Imports
+import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <Fragment>

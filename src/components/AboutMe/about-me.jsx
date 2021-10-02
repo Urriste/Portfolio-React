@@ -1,6 +1,11 @@
+//React Imports
 import React, { Fragment } from "react";
-import MeImg from "../img/yo.jpeg";
+
+//Internal Imports
+import MeImg from "../../img/yo.jpeg";
 import "./about-me.css";
+
+//External Imports
 import Fade from "react-reveal/Fade";
 import Tada from "react-reveal/Tada";
 

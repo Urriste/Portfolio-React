@@ -1,11 +1,14 @@
-import "./App.css";
+//External Imports
 import { BrowserRouter, Route, Switch } from "../node_modules/react-router-dom";
+
+//Internal Imports
+import "./App.css";
 import Main from "./components/main";
-import AboutMe from "./components/about-me";
-import Footer from "./components/footer";
-import Skills from "./components/skills";
-import Works from "./components/works";
-import Contact from "./components/contact";
+import AboutMe from "./components/AboutMe/about-me";
+import Footer from "./components/Footer/footer";
+import Skills from "./components/Skills/skills";
+import Works from "./components/Works/works";
+import Contact from "./components/Contact/contact";
 
 function App() {
   return (

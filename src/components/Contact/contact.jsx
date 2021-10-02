@@ -1,7 +1,12 @@
+//React Imports
 import React, { Fragment } from "react";
+
+//Internal Imports
 import "./contact.css";
-import Linkedin from "../img/linkedin.svg";
-import Instagram from "../img/instagram.svg";
+import Linkedin from "../../img/linkedin.svg";
+import Instagram from "../../img/instagram.svg";
+
+//External Imports
 import Jump from "react-reveal/Jump";
 import LightSpeed from "react-reveal/LightSpeed";
 
